@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 232, 213);
+}
+.header {
+    background-color:rgb(67, 6, 6);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    height: 40px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 50%;
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+.search-bar i {
+    color: #2874f0;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-links a i {
+    margin-right: 5px;
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: rgb(255, 232, 213);
+}
+.categories div {
+    text-align: center;
+}
+.categories img {
+    height: 50px;
+}
+.categories p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+}
+.banner .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.banner .arrow.left {
+    left: 10px;
+}
+.banner .arrow.right {
+    right: 10px;
+}
+.section-title {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.product {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+.product img {
+    height: 100px;
+}
+.product p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+.logo{
+    border-radius: 50%;
+}
+.footer
+{
+    background-color: rgb(67, 6, 6);
+    color:rgb(255, 232, 213);
+}
+.sd{
+    border-top: 1px solid #000; 
+  margin: 20px 0; 
+  width: 100%;
+}
+.product img {
+    transition: transform 0.3s ease-in-out;
+}
+.product img:hover {
+    transform: scale(1.1);
+}
